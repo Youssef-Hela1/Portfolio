@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #1a1c1f;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-graphite-900 antialiased;
+  }
+}
+
+@layer components {
+
+  /* Bento grid system */
+  .bento-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6;
+  }
+
+  .bento-card {
+    @apply relative overflow-hidden rounded-2xl bg-white border border-grey-200 shadow-card transition-all duration-300 ease-smooth hover:shadow-card-hover hover:border-grey-300 hover:-translate-y-1;
+    /* Fixed heights for cards */
+  }
+
+  .bento-card-small {
+    @apply col-span-1 row-span-1;
+    height: 320px;
+  }
+
+  .bento-card-medium {
+    @apply col-span-1 row-span-1;
+    height: 320px;
+  }
+
+  .bento-card-large {
+    @apply col-span-1 row-span-2;
+    height: 520px;
+  }
+
+  /* Card inner content */
+  .bento-card-content {
+    @apply absolute inset-0 p-6 flex flex-col justify-end bg-gradient-to-t from-white via-white/90 to-transparent;
+  }
+
+  /* CTA Button styles */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-graphite-900 text-white font-medium rounded-full transition-all duration-300 ease-smooth hover:bg-graphite-950 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 active:shadow-md;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-transparent text-graphite-900 font-medium rounded-full border-2 border-graphite-200 transition-all duration-300 ease-smooth hover:bg-graphite-50 hover:border-graphite-300 active:bg-graphite-100;
+  }
+
+  /* Technology badge */
+  .tech-badge {
+    @apply inline-flex items-center px-3 py-1 text-xs font-medium bg-grey-100 text-graphite-700 rounded-full transition-colors duration-200 hover:bg-grey-200;
+  }
+}
+
+@layer utilities {
+
+  /* Animation delay utilities */
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  /* Text gradient */
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-graphite-900 via-graphite-700 to-graphite-500;
+  }
+
+  /* Glassmorphism */
+  .glass {
+    @apply bg-white/80 backdrop-blur-lg border border-white/20;
+  }
+}

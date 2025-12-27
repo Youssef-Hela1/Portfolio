@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "title": "C-SAT Dasboard",
+      "description": "Interactive C-SAT dashboard that tracks agent, account, and leader performance",
+      "longDescription": "This Interactive C-SAT Dashboard was designed to provide a comprehensive, real-time view of customer satisfaction performance across agents, accounts, and leadership levels. The dashboard consolidates survey responses and operational data into a single, intuitive interface, enabling stakeholders to quickly identify trends, strengths, and improvement opportunities.\n\nAt the agent level, the dashboard tracks individual C-SAT scores, response volumes, and performance trends over time. Interactive filters allow users to drill down by date range, account, or leader, making it easy to evaluate consistency, identify top performers, and flag agents who may require additional coaching or support. This granular visibility helps drive fair performance evaluations and targeted development plans.\n\nAt the account level, the dashboard aggregates customer satisfaction data to highlight how different accounts are performing relative to one another. Users can compare average C-SAT scores, response counts, and historical trends to uncover patterns such as recurring issues, seasonal fluctuations, or account-specific risks. This enables account managers and operations teams to proactively address customer concerns and prioritize improvement initiatives.\n\nAt the leadership level, the dashboard provides a high-level overview of team and account performance, allowing leaders to assess overall service quality at a glance. Key metrics are visualized through dynamic charts, scorecards, and trend lines, supporting data-driven decision-making and strategic planning. Leaders can easily identify high-performing teams, monitor the impact of coaching efforts, and track progress against organizational benchmarks.\n\nThe dashboard is fully interactive, with slicers, drill-through functionality, and dynamic visualizations that update instantly based on user selections. This ensures flexibility for different audiences—from frontline supervisors to senior management—while maintaining a single source of truth for C-SAT reporting.\n\nOverall, this solution transforms raw customer feedback into actionable insights, empowering teams to improve customer experience, enhance agent performance, and align leadership decisions with measurable satisfaction outcomes.",
+      "image": "/uploads/1766863024482-d44f39dc-bc99-4674-a0a8-7a31939f578a.png",
+      "technologies": [],
+      "liveUrl": "",
+      "downloadUrl": "",
+      "featured": true,
+      "gridSize": "medium",
+      "category": "excel",
+      "accentColor": "#20497e",
+      "screenshots": [
+        {
+          "image": "/uploads/1766863076505-CSAT_Dashboard_.png",
+          "description": "Main Page : Contains all necessary information",
+          "id": 1
+        }
+      ],
+      "createdAt": "2025-12-27",
+      "id": "6db1"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Microsoft Excel",
+      "slug": "excel",
+      "icon": "excel"
+    },
+    {
+      "id": 2,
+      "name": "Google Sheets",
+      "slug": "sheets",
+      "icon": "sheets"
+    },
+    {
+      "id": 3,
+      "name": "Looker Studio",
+      "slug": "looker",
+      "icon": "looker"
+    },
+    {
+      "id": 4,
+      "name": "Tableau",
+      "slug": "tableau",
+      "icon": "tableau"
+    },
+    {
+      "id": 5,
+      "name": "Power BI",
+      "slug": "powerbi",
+      "icon": "powerbi"
+    }
+  ]
+}
