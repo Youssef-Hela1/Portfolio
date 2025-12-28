@@ -71,8 +71,7 @@ export default function ToolNavbar({ projects, categories, onEditClick }: ToolNa
                                 <button
                                     key={category.id}
                                     onClick={() => setActiveCategory(category.slug)}
-                                    className={`flex flex - col items - center justify - center gap - 2 rounded - xl transition - all duration - 300
-w - [100px] h - [80px] flex - shrink - 0
+                                    className={`flex flex-col items-center justify-center gap-2 rounded-xl transition-all duration-300 w-[100px] h-[80px] flex-shrink-0
                     ${activeCategory === category.slug
                                             ? "bg-graphite-900 text-white shadow-lg scale-105"
                                             : "bg-grey-100 text-graphite-600 hover:bg-grey-200 hover:text-graphite-900"
