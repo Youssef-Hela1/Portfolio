@@ -1,26 +1,90 @@
 {
   "projects": [
     {
-      "title": "C-SAT Dasboard",
-      "description": "Interactive C-SAT dashboard that tracks agent, account, and leader performance",
-      "longDescription": "This Interactive C-SAT Dashboard was designed to provide a comprehensive, real-time view of customer satisfaction performance across agents, accounts, and leadership levels. The dashboard consolidates survey responses and operational data into a single, intuitive interface, enabling stakeholders to quickly identify trends, strengths, and improvement opportunities.\n\nAt the agent level, the dashboard tracks individual C-SAT scores, response volumes, and performance trends over time. Interactive filters allow users to drill down by date range, account, or leader, making it easy to evaluate consistency, identify top performers, and flag agents who may require additional coaching or support. This granular visibility helps drive fair performance evaluations and targeted development plans.\n\nAt the account level, the dashboard aggregates customer satisfaction data to highlight how different accounts are performing relative to one another. Users can compare average C-SAT scores, response counts, and historical trends to uncover patterns such as recurring issues, seasonal fluctuations, or account-specific risks. This enables account managers and operations teams to proactively address customer concerns and prioritize improvement initiatives.\n\nAt the leadership level, the dashboard provides a high-level overview of team and account performance, allowing leaders to assess overall service quality at a glance. Key metrics are visualized through dynamic charts, scorecards, and trend lines, supporting data-driven decision-making and strategic planning. Leaders can easily identify high-performing teams, monitor the impact of coaching efforts, and track progress against organizational benchmarks.\n\nThe dashboard is fully interactive, with slicers, drill-through functionality, and dynamic visualizations that update instantly based on user selections. This ensures flexibility for different audiences—from frontline supervisors to senior management—while maintaining a single source of truth for C-SAT reporting.\n\nOverall, this solution transforms raw customer feedback into actionable insights, empowering teams to improve customer experience, enhance agent performance, and align leadership decisions with measurable satisfaction outcomes.",
-      "image": "/uploads/1766863024482-d44f39dc-bc99-4674-a0a8-7a31939f578a.png",
+      "title": "C-SAT Dashboard",
+      "description": "An interactive dashboard that tracks account, agent and leader performance in customer satisfaction",
+      "longDescription": "This interactive dashboard provides a comprehensive view of customer satisfaction for a single account, allowing you to track and analyze the performance of both agents and leaders. It consolidates key metrics into intuitive visualizations, enabling quick identification of trends, strengths, and areas for improvement. With real-time updates and actionable insights, the dashboard supports data-driven decisions to enhance overall customer experience and drive team performance.",
+      "image": "https://o4zb4oqutivicrpp.public.blob.vercel-storage.com/d44f39dc-bc99-4674-a0a8-7a31939f578a.png",
       "technologies": [],
       "liveUrl": "",
-      "downloadUrl": "",
-      "featured": true,
+      "downloadUrl": "https://o4zb4oqutivicrpp.public.blob.vercel-storage.com/CSAT%20Dashboard.xlsx",
+      "featured": false,
       "gridSize": "medium",
       "category": "excel",
-      "accentColor": "#20497e",
+      "accentColor": "#2f466f",
       "screenshots": [
         {
-          "image": "/uploads/1766863076505-CSAT_Dashboard_.png",
-          "description": "Main Page : Contains all necessary information",
+          "image": "https://o4zb4oqutivicrpp.public.blob.vercel-storage.com/CSAT%20Dashboard%20.png",
+          "description": "Main Dashboard: Shows account-level analytics with Call/Chat queue options and a TL stats tracker filterable by leader or queue.",
           "id": 1
+        },
+        {
+          "image": "https://o4zb4oqutivicrpp.public.blob.vercel-storage.com/CSAT%20Dashboard%202.png",
+          "description": "Analysis: Summarizes CSAT attribute highlights weaknesses, peak-day & breakdown when it comes to agent level stats",
+          "id": 2
         }
       ],
-      "createdAt": "2025-12-27",
-      "id": "6db1"
+      "createdAt": "2025-12-28",
+      "id": "c005"
+    },
+    {
+      "title": "QA Dashboard",
+      "description": "An interactive Dashboard that tracks agent, leader and account QA scores",
+      "longDescription": "This interactive dashboard tracks Quality Assurance (QA) scores across agents, leaders, and the overall account, providing a clear and consolidated view of performance. It offers intuitive visualizations that highlight trends, top performers, and areas needing improvement, enabling quick and informed decision-making. Designed for real-time monitoring, the dashboard helps drive accountability, enhance team performance, and ensure consistent service quality across the account.",
+      "image": "https://o4zb4oqutivicrpp.public.blob.vercel-storage.com/82349bf4-f6d9-4a5b-b827-431dcff0db98.png",
+      "technologies": [],
+      "liveUrl": "",
+      "downloadUrl": "https://o4zb4oqutivicrpp.public.blob.vercel-storage.com/Dashbaord%20Example.xlsx",
+      "featured": false,
+      "gridSize": "small",
+      "category": "excel",
+      "accentColor": "#5e7b84",
+      "screenshots": [
+        {
+          "image": "https://o4zb4oqutivicrpp.public.blob.vercel-storage.com/QA-Dashboard.png",
+          "description": "QA Dashboard : Helps monitor the total transaction evaluated by the QA team with a detailed description of each attribute and its percentage and failed cases.",
+          "id": 1
+        },
+        {
+          "image": "https://o4zb4oqutivicrpp.public.blob.vercel-storage.com/QA-Dashboard%202.png",
+          "description": "TL Dashboard : Helps in providing an easily readable form of data so that team leaders and their managers are able to accurately track their team's progress and scores",
+          "id": 2
+        }
+      ],
+      "createdAt": "2025-12-28",
+      "id": "02eb"
+    },
+    {
+      "title": "Personal Finances Dashboard",
+      "description": "An interactive Dashboard for personal finances",
+      "longDescription": "A comprehensive Excel-based financial dashboard that visualizes income, expenses, and savings trends. Designed for simplicity and insight, it automates data entry, categorization, and monthly analysis to help users make smarter financial decisions.",
+      "image": "https://o4zb4oqutivicrpp.public.blob.vercel-storage.com/Financial%20Dasshboard.png",
+      "technologies": [],
+      "liveUrl": "",
+      "downloadUrl": "https://o4zb4oqutivicrpp.public.blob.vercel-storage.com/Financial%20Dashboard%20Prototype.xlsm",
+      "featured": true,
+      "gridSize": "large",
+      "category": "excel",
+      "accentColor": "#2f5597",
+      "screenshots": [
+        {
+          "image": "https://o4zb4oqutivicrpp.public.blob.vercel-storage.com/Overview%20Page.png",
+          "description": "Overview Page: This oage has year to date data regarding, Credit Debt, Overall Earnings, Overall spend, and Savings overview. with a tbale showing latest transactions.",
+          "id": 1
+        },
+        {
+          "image": "https://o4zb4oqutivicrpp.public.blob.vercel-storage.com/Credit%20Card%20Page..png",
+          "description": "Credit Card Page: This page is an extensive overview over your credit card, with detailed insights on due date, spend, and breaskdowns.",
+          "id": 2
+        },
+        {
+          "image": "https://o4zb4oqutivicrpp.public.blob.vercel-storage.com/Income%20page.png",
+          "description": "Income Page : This page is adetailed breakdown of your monthly income, the spend breakdown, current net worth.",
+          "id": 3
+        }
+      ],
+      "createdAt": "2025-12-28",
+      "id": "5eb3"
     }
   ],
   "categories": [
