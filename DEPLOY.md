@@ -21,14 +21,14 @@ git commit -m "Initial commit"
 
 ```bash
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/Portofolio.git
+git remote add origin https://github.com/YOUR_USERNAME/Portfolio.git
 git push -u origin main
 ```
 
 ## 4. Deploy to Vercel
 1.  Go to [Vercel.com](https://vercel.com) and Sign Up/Log In.
 2.  Click "Add New..." -> "Project".
-3.  Import from the GitHub repository you just created (`Portofolio`).
+3.  Import from the GitHub repository you just created (`Portfolio`).
 4.  Click **Deploy**.
 
 ### Important Note about Data
