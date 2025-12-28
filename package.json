@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "db": "json-server --watch db/db.json --port 3001"
+    "db": "json-server --watch src/lib/db.json --port 3001"
   },
   "dependencies": {
     "@vercel/blob": "^2.0.0",

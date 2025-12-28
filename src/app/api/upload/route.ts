@@ -12,6 +12,10 @@ export async function POST(request: Request): Promise<NextResponse> {
             return NextResponse.json({ error: "No file provided" }, { status: 400 });
         }
 
+        if (!process.env.BLOB_READ_WRITE_TOKEN) {
+            return NextResponse.json({ error: "BLOB_READ_WRITE_TOKEN is missing in server environment" }, { status: 500 });
+        }
+
         const filename = file.name;
 
         // Upload to Vercel Blob
@@ -28,7 +32,7 @@ export async function POST(request: Request): Promise<NextResponse> {
     } catch (error) {
         console.error("Upload error:", error);
         return NextResponse.json(
-            { error: "Failed to upload file" },
+            { error: (error as Error).message },
             { status: 500 }
         );
     }

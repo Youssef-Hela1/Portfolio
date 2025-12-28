@@ -48,7 +48,9 @@ export default function ToolNavbar({ projects, categories, onEditClick }: ToolNa
     const [activeCategory, setActiveCategory] = useState<string>(categories[0]?.slug || "excel");
     const [expandedProject, setExpandedProject] = useState<Project | null>(null);
 
-    const filteredProjects = projects.filter((p) => p.category === activeCategory);
+    const filteredProjects = projects
+        .filter((p) => p.category === activeCategory)
+        .sort((a, b) => (a.featured === b.featured ? 0 : a.featured ? -1 : 1));
 
     const handleViewProject = (project: Project) => {
         setExpandedProject(project);
